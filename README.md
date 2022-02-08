@@ -16,19 +16,13 @@ Get-Help .\Get-MyITProcessUsersReport
 Get-Help .\Get-MyITProcessUsersReport -Full
 ```
 
-## Install MyITProcessAPI Module
+# Examples
 
-Be sure to have the MyITProcessAPI module installed **before** running any of the sample reports.
-- The MyITProcessAPI module can be installed directly from the [PowerShell Gallery](https://www.powershellgallery.com/packages/MyITProcessAPI) with the following command:
-- :information_source: This module supports PowerShell 5.0+ and should work in PowerShell Core.
-```posh
-Install-Module -Name MyITProcessAPI
-```
+## Client Reports
+![Client Reports](https://github.com/Celerium/MyITProcess-Automation/blob/main/Images/MyITProcessClientsReport.png)
 
-If you are running an older version of PowerShell, or if PowerShellGet is unavailable, you can manually download the *Master* branch and place the *MyITProcessAPI* folder into the (default) `C:\Program Files\WindowsPowerShell\Modules` folder.
+## Review Reports
+![Review Reports](https://github.com/Celerium/MyITProcess-Automation/blob/main/Images/MyITProcessReviewsReport.png)
 
-After installation (by either methods), load the module into your workspace:
-
-```posh
-Import-Module MyITProcessAPI
-```
+## User Reports
+![User Reports](https://github.com/Celerium/MyITProcess-Automation/blob/main/Images/MyITProcessUsersReport.png)
